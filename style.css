@@ -44,6 +44,58 @@ section {
     border: 2px dashed #999;
     margin: 20px 0;
 }
+.separator {
+    border: none; /* Remove default border */
+    height: 2px;  /* Line thickness */
+    background-color: #333; /* Line color (dark gray) */
+    margin: 20px 0; /* Spacing above and below the line */
+}
+
+
+.featured-image {
+    max-width: 100%; 
+    height: auto;
+    border: 2px solid #ccc;
+    margin-top: 20px;
+}
+
+
+.content-container {
+    display: flex; /* Use flexbox for horizontal alignment */
+    align-items: flex-start; /* Align content to the top */
+    gap: 20px; /* Space between the image and the text */
+    margin: 20px 0; /* Add vertical spacing */
+}
+
+.featured-image {
+     width: 300px;
+    height: 400px;
+    background-color: #ccc;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px dashed #999;
+    margin: 20px 0;
+}
+
+.text-container {
+    flex: 1; /* Take up the remaining space */
+}
+
+.text-container h2 {
+    margin-bottom: 10px;
+    font-size: 1.5rem;
+    color: #333;
+}
+
+.text-container p {
+   
+	line-height: 1.6;
+    font-size: 1rem;
+    color: #555;
+    font-family: 'Georgia', serif; /* Default paragraph font */
+}
+
 
 footer {
     text-align: center;
